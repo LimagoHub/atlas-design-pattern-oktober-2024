@@ -15,5 +15,13 @@ namespace mitarbeiter::visitor {
         void visit(GehaltsEmpfaenger &gehalts_empfaenger) override {
             // Ok
         }
+
+        void init() override {
+            // Ok
+        }
+
+        void dispose() override {
+            // Ok
+        }
     };
 }
