@@ -9,6 +9,10 @@
 namespace math {
 
     class CalculatorImpl : public Calculator {
+
+
+        CalculatorImpl() = default;
+
     public:
         double add(double a, double b) override {
             return a + b;
@@ -17,6 +21,8 @@ namespace math {
         double sub(double a, double b) override {
             return a - b;
         }
+
+        friend class CalculatorFactory;
     };
 
 } // math
