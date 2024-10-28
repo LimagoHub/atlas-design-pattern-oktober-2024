@@ -1,8 +1,9 @@
 //
 // Created by JoachimWagner on 25.12.2023.
 //
-#include <string>
+
 #pragma once
+#include <string>
 namespace trafficlight::state {
 
     class TrafficLightState {
