@@ -3,9 +3,9 @@
 //
 
 #pragma once
-#include "AbstractFileProcessor.h"
-namespace processor {
-    class CharacterCounter: public AbstractFileProcessor {
+#include "CharacterHandler.h"
+namespace processor::handler {
+    class CharacterCounter: public CharacterHandler {
         int counter = 0;
 
     public:
