@@ -9,13 +9,26 @@
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Tag2_02ObserverMitObservable" targetName="Tag2_02ObserverMitObservable" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f79f1c8-e982-435e-b292-faad9d060343" name="Changes" comment="" />
+    <list default="true" id="3f79f1c8-e982-435e-b292-faad9d060343" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/propertychange/PropertyChangedEvent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propertychange/PropertyChangedListener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiere/Schwein.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tiere/Tier.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tag2_02ObserverMitObservable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tag2_02ObserverMitObservable.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +37,22 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LimagoHub"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LimagoHub/atlas-design-pattern-oktober-2024",
+    "accountId": "6bf0de63-422d-4186-91f9-094d02cf1f08"
+  }
+}]]></component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
@@ -45,10 +74,36 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/JoachimWagner/Documents/git/Atlas/DesignPattern/atlas-design-pattern-oktober-2024/Tag2_02ObserverMitObservable/tiere",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JoachimWagner\Documents\git\Atlas\DesignPattern\atlas-design-pattern-oktober-2024\Tag2_02ObserverMitObservable\tiere" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JoachimWagner\Documents\git\Atlas\DesignPattern\atlas-design-pattern-oktober-2024\Tag2_02ObserverMitObservable\propertychange" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tag2_02ObserverMitObservable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tag2_02ObserverMitObservable" TARGET_NAME="Tag2_02ObserverMitObservable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tag2_02ObserverMitObservable" RUN_TARGET_NAME="Tag2_02ObserverMitObservable">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730192309346</updated>
-      <workItem from="1730192310819" duration="1000" />
+      <workItem from="1730192310819" duration="625000" />
     </task>
     <servers />
   </component>
