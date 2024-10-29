@@ -7,4 +7,7 @@ add_executable(Tag2_03Command main.cpp
         command/Command.h
         math/Calculator.h
         command/CommandFactory.h
+        command/SubCommand.h
+        command/ClearCommand.h
+        command/CommandHistory.h
 )
