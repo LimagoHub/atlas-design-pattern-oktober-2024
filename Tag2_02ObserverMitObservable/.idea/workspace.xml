@@ -21,13 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f79f1c8-e982-435e-b292-faad9d060343" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/propertychange/PropertyChangedEvent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/propertychange/PropertyChangedListener.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiere/Schwein.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiere/Tier.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tag2_02ObserverMitObservable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tag2_02ObserverMitObservable.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730192309346</updated>
-      <workItem from="1730192310819" duration="625000" />
+      <workItem from="1730192310819" duration="2358000" />
     </task>
     <servers />
   </component>
