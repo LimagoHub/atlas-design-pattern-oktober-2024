@@ -28,7 +28,13 @@ public:
         }
 
 
+        void switchOn() override {
+            throw std::logic_error("Diese Funktion macht hier keinen Sinn.");
+        }
 
+        void switchOff() override {
+            throw std::logic_error("Diese Funktion macht hier keinen Sinn.");
+        }
 
     trafficlight::TrafficLight *getTrafficLight() const {
             return trafficLight_;

@@ -3,14 +3,14 @@
 //
 
 #pragma once
-#include "AbstractTrafficLightState.h"
+#include "AbstractTrafficLightColorState.h"
 namespace trafficlight::state {
-    class RedState : public AbstractTrafficLightState {
+    class RedState : public AbstractTrafficLightColorState {
 
-    private:
+
 
     public:
-        RedState(trafficlight::TrafficLight *trafficLight) : AbstractTrafficLightState(trafficLight) {}
+        RedState(trafficlight::TrafficLight *trafficLight) : AbstractTrafficLightColorState(trafficLight) {}
         std::string getColor() {
             return "RED";
         }

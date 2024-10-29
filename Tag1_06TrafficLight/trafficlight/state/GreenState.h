@@ -4,12 +4,12 @@
 
 #pragma once
 #include <iostream>
-#include "AbstractTrafficLightState.h"
+#include "AbstractTrafficLightColorState.h"
 namespace trafficlight::state {
-    class GreenState : public AbstractTrafficLightState{
+    class GreenState : public AbstractTrafficLightColorState{
 
     public:
-        GreenState(trafficlight::TrafficLight *trafficLight) : AbstractTrafficLightState(trafficLight) {}
+        GreenState(trafficlight::TrafficLight *trafficLight) : AbstractTrafficLightColorState(trafficLight) {}
 
         std::string getColor() {
             return "GREEN";
@@ -19,11 +19,6 @@ namespace trafficlight::state {
             getTrafficLight()->current = getTrafficLight()->red;
         }
 
-
-
-        ~GreenState() override{
-            std::cout << "Green destroyed" << std::endl;
-        }
 
     };
 }

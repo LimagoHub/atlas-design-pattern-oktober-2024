@@ -7,4 +7,6 @@ add_executable(Tag1_06TrafficLight main.cpp
         trafficlight/state/TrafficLightState.h
         trafficlight/TrafficLight.cpp
         trafficlight/TrafficLight.h
-        trafficlight/state/AbstractTrafficLightState.h)
+        trafficlight/state/AbstractTrafficLightState.h
+        trafficlight/state/OffState.h
+        trafficlight/state/AbstractTrafficLightColorState.h)
