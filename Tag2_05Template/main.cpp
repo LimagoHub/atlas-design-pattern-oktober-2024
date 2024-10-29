@@ -1,11 +1,14 @@
 #include <iostream>
-#include "processor/FileProcessor.h"
+#include "processor/AbstractFileProcessor.h"
+#include "processor/CharacterCounter.h"
+#include "processor/LineCounter.h"
 
 
-using Processor = processor::FileProcessor;
+using Processor = processor::AbstractFileProcessor;
 
 int main() {
-    Processor fileProcessor;
+    processor::LineCounter lc;
+    Processor &fileProcessor = lc;
     fileProcessor.run("..\\data\\blind.txt");
     return 0;
 }

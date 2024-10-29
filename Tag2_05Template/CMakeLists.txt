@@ -3,4 +3,6 @@ project(Tag2_05Template)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Tag2_05Template main.cpp)
+add_executable(Tag2_05Template main.cpp
+        processor/CharacterCounter.h
+        processor/LineCounter.h)
