@@ -8,22 +8,22 @@
 #include "AbstractCommand.h"
 
 using Calc=math::Calculator;
-
+using CalcMementoPointer=std::shared_ptr<math::CalculatorMemento>;
 namespace command {
 
     class ClearCommand : public AbstractCommand {
-        double value{0};
+        CalcMementoPointer value;
     public:
         ClearCommand()=default;
         ~ClearCommand() override = default;
 
         auto execute()->void override {
-            value = Calc::getInstance()->getMemory();
+            value = Calc::getInstance()->getMemento();
             Calc::getInstance()->clear();
         }
 
         auto undo() -> void override {
-            Calc::getInstance()->setMemory(value);
+            Calc::getInstance()->setMemento(value);
         }
 
         auto isQuery() -> bool override {

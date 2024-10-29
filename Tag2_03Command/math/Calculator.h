@@ -5,11 +5,22 @@
 #pragma once
 #include <memory>
 #include <iostream>
+#include "CalculatorMemento.h"
 
 namespace math {
 
     class Calculator {
 
+
+        class ConcreteCalculatorMemento : public CalculatorMemento {
+            const double memory;
+        public:
+            explicit ConcreteCalculatorMemento(const double memory) : memory(memory) {}
+
+            [[nodiscard]] auto getMemory() const ->double {
+                return memory;
+            }
+        };
         double memory{0};
 
         Calculator() {}
@@ -23,6 +34,16 @@ namespace math {
             static std::shared_ptr<Calculator> instance{new Calculator{}};
 
             return instance;
+        }
+
+        auto setMemento(const std::shared_ptr<CalculatorMemento> &calculatorMemento) -> void {
+            auto memento = static_cast<ConcreteCalculatorMemento*>(calculatorMemento.get());
+
+            Calculator::memory = memento->getMemory();
+        }
+
+        [[nodiscard]] auto getMemento()->std::shared_ptr<CalculatorMemento> {
+            return std::make_shared<ConcreteCalculatorMemento>(Calculator::memory);
         }
 
         double getMemory() const {
