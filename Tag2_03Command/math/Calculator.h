@@ -14,6 +14,10 @@ namespace math {
 
         Calculator() {}
 
+
+        void setMemory(double memory) {
+            Calculator::memory = memory;
+        }
     public:
         [[nodiscard]] static auto getInstance()->std::shared_ptr<Calculator>  {
             static std::shared_ptr<Calculator> instance{new Calculator{}};
@@ -23,10 +27,6 @@ namespace math {
 
         double getMemory() const {
             return memory;
-        }
-
-        void setMemory(double memory) {
-            Calculator::memory = memory;
         }
 
         auto print() const->void{
