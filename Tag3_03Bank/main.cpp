@@ -37,11 +37,9 @@ int main() {
     e2->append(e2_1);
     e2->append(e2_2);
 
-    root->ausgabe(); // Gibt den ganzen Teilbaum aus
-    // e2_1->print() // gibt konto aus
-
-
-    //travers(root);
+    for(const auto & myNode : *root ){
+        std::cout << myNode << std::endl;
+    }
 
     return 0;
 }
