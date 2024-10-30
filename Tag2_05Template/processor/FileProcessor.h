@@ -26,7 +26,7 @@ namespace processor {
             }
         }
 
-        virtual void dispose() {
+        void dispose() {
             for (auto const handler: handlers) {
                 handler.get().dispose();
             }
