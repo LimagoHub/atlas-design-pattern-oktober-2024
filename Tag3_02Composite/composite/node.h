@@ -7,8 +7,7 @@
 #include "abstract_node.h"
 #include <algorithm>
 namespace composite {
-    class node :
-public abstract_node  {
+    class node : public abstract_node  { // Kontogruppe
     public:
 
         explicit node(const std::string &name) : abstract_node(name) {}

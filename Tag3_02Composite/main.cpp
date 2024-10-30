@@ -37,6 +37,9 @@ int main() {
     e2->append(e2_1);
     e2->append(e2_2);
 
+    // root->print(); // Gibt den ganzen Teilbaum aus
+    // e2_1->print() // gibt leaf aus
+
 
     travers(root);
 

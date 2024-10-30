@@ -7,8 +7,8 @@
 
 namespace composite {
 
-    class leaf : public abstract_node {
-
+    class leaf : public abstract_node { // Konto
+        // double saldo
     public:
         leaf(const std::string &name)
                 : abstract_node(name) {
